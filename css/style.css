@@ -1,0 +1,81 @@
+/*Basic Flex*/
+.flex {display:flex;}
+/*Basic flex*/
+.nav-ul {display:flex; transition:all 0.3s ease-in 0.2s; opacity:0.5}
+.d-flex {display:flex; justify-content: space-between; align-items: center;}
+.logo {position: absolute; top:20px; left:50px; }
+.nav-li {margin-right:15px; }
+.nav-li-a {font-size:20px; font-family:poppins; color:#fff;}
+.header-image { position: relative; }
+.header-image img {width:100%;}
+.container {max-width:1280px; margin:0 auto; width:100%; }
+.nav-nav {position: absolute; top:20px;right:50px;margin-top:18px;}
+.big-title {font-size:50px; position: absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:white; font-family:lato;}
+.small-title {position: absolute; top:60%; left:58%; transform:translate(-65%,-58%); font-family:poppins; color:#fff;}
+.view-more-icon {border: 0 solid;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #325DFF; width:180px; position:absolute; font-family: lato; bottom: 20%;
+    left: 44%; color:#fff;}
+ /*end header*/
+ /*start section*/
+ .box2 {background: #fff; width:640px; height:600px;}
+ .box2-title {font-size:50px; font-family:lato; font-weight:2; padding:20px 30px;}
+ .box1-text {font-size:16px;font-family:poppins; font-weight:1; padding:20px 30px;margin:90px 0;}
+ .view-more-icon2 {border: 0 solid;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #325DFF; width:180px;  font-family:lato; color:#fff; margin:20px 30px;}
+.box1-image {width:640px;}
+.box1-image img {width:100%;}
+/*start 2nd section*/
+.section2-text {display:flex; justify-content: center; margin-top:20px;}
+.section2-p {font-size:30px; font-family:lato; font-weight: 2;}
+.section2-title {display:flex; justify-content: center; margin-top:15px;}
+.section2-title2 {font-size:16px; font-family:poppins;font-weight:3;}
+.box1 {width:370px; height:370px; background-color:#FAFAFA; margin-right:auto; margin-top:30px;}
+.box1:last-child {margin-right:0;}
+.box1 .section2-box1 {display:flex; justify-content: center;}
+.section2-box1 {font-family:lato;}
+.section2-box1-text {max-width:500px; font-family: poppins; font-weight: 1; margin-top:20px;}
+.rainbow {display:flex; justify-content: center; margin-bottom:20px;}
+.box1-son { padding:50px 20px }
+/*START 2nd Section*/
+.second-section {margin-top:50px;}
+.banner {position: relative;}
+.banner img { max-width: 1280px;
+	width: 100%;}
+.p-titles2nd {position:absolute; top:50%; left:45%;}
+.p-title {font-size:30px; font-weight: 2; font-family: lato; color:#fff;}
+.p-text2 {position: absolute; top:60%; left:30%; max-width:700px;}
+.p-text {color:white ; font-weight: 1; font-family:poppins;}
+/*End 2nd Section*/
+/*Start 3rd Section*/
+.section3 {display:flex;justify-content: center;}
+.section3-text {display: flex; justify-content: center;}
+.section3-text-dec {font-family:poppins; font-weight:1; max-width: 700px; margin-bottom:30px; }
+.section3-title {font-family: lato; font-weight: 2; font-size:30px; margin-bottom:20px; margin-top:20px;}
+.section3-box {width:640px; height:600px;}
+.mother-section3 {display:flex;}
+.section3-box-img {width:640px; height: 600px}
+.section3-box-img img {width:100%;}
+.section3-box-title {font-size:50px; font-family:lato; font-weight:2; margin:80px;}
+.section3-box-text {font-size:15px; font-family:poppins; font-weight:1;margin:80px; }
+.section-3-border {border: 0 solid  ;
+    padding: 10px 5px;
+    border-radius: 30px;
+     width:152px; background-color:#325DFF; font-family:poppins;  margin:80px; color:#fff;}
+.section3-2-box img {width:100%;}
+.section3-2-text {width:640px; height: 600px}
+.section3-3-img img {width:100%;}
+.section3-3-img {width:640px; height:600px;}
+.footer {width:100%; height:100px; background-color: #325DFF; margin-top:5px; display:flex; justify-content: center;
+ align-items:center; font-family:poppins; color:#fff;}
+ /*End */
+  /*Start */
+  .nav-ul:hover {opacity:1;}
+
+.forms {display: flex; flex-direction:column; margin-top:15px; background-color:black; color:white; }
+.forms-d {max-width:300px; margin:0 auto; background-color:red; }
+.name {padding:10px 0; margin:10px 0; background-color:yellow; color:white; border:none;}
+input:focus {outline:none;}
